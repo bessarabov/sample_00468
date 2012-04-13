@@ -7,5 +7,6 @@ use Carp;
 use Test::More;
 
 is(1,1,'one is one');
+is(1,0,'broken test');
 
 done_testing();
